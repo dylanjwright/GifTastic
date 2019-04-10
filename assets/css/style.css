@@ -1,0 +1,41 @@
+form {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+button {
+    background: rgb(233, 10, 59);
+    color: white;
+    font-size: 10px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: rgb(7, 20, 209);
+  color: white;
+}
+
+#addSearch {
+    background: rgb(211, 21, 69);
+    color: white;
+    font-size: 10px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+#addSearch:hover {
+    background-color: rgb(7, 20, 209);
+  color: white;
+}
+label {
+    font-size: 22px;
+    font-style: oblique;
+}
+
+#search-input {
+    height: 25px;
+}
