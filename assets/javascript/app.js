@@ -59,8 +59,12 @@ $(document).on("click", ".searchButton", function () {
             var still = response.data[i].images.fixed_height_still.url;
 
             var image = $("<img>");
+
+            image.attr("data-state", "still")
             
             image.attr("src", still);
+
+            image.attr("data-still", still);
 
             image.attr("data-animated", animated);
 
